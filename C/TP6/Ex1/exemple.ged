@@ -1,0 +1,35 @@
+0 @67945I@ INDI
+1 NAME Jean/PERONNE/
+1 SEX M
+1 BIRT
+2 DATE 30 JAN 1738
+2 PLAC Le Mesnil-Garnier,50450,Manche,Basse-Normandie,FRANCE,
+1 DEAT
+2 DATE 22 APR 1824
+2 PLAC Torigni-sur-Vire,50160,Manche,Basse-Normandie,FRANCE,
+2 AGE 87
+1 OCCU sabotier (1757-1768), boiseron (1760)
+1 FAMS @67946U@
+1 FAMC @67952U@
+0 @18578I@ INDI
+1 NAME Catherine Julienne/GUIBERT/
+1 SEX F
+1 BIRT
+2 DATE 21 AUG 1732
+2 PLAC Landivy,53,Mayenne,Pays de la Loire,FRANCE,
+1 DEAT
+2 DATE 16 OCT 1820
+2 PLAC Giéville,50160,Manche,Basse-Normandie,FRANCE,
+2 AGE 88
+1 OCCU boiseron (1760)
+1 FAMS @67946U@
+1 FAMC @17817U@
+0 @67946U@ FAM
+1 HUSB @67945I@
+1 WIFE @18578I@
+1 CHIL @67953I@
+1 CHIL @67955I@
+1 MARR
+2 TYPE Religious marriage
+2 DATE 3 AUG 1757
+2 PLAC La Bloutière,50800,Manche,Basse-Normandie,FRANCE,

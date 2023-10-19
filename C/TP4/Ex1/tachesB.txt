@@ -1,0 +1,14 @@
+0 0 0 debut
+1 120 0 permis exploitation
+2 180 1 1 piste 6km
+3 3 1 2 installation sondeuses
+4 30 1 2 batiments provisoires
+5 60 1 2 groudronnage piste
+6 90 1 4 adduction eau
+7 240 2 3 4 campagne sondage
+8 180 3 5 6 7 forage  3 puits
+9 240 3 5 6 7 construction bureaux logements
+10 30 2 8 9 transport installation mat�riel
+11 360 2 8 9 tra�age du fond
+12 240 2 8 9 construction laverie
+13 0 3 10 11 12 fin des travaux

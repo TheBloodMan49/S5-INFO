@@ -1,0 +1,3 @@
+TPOCAML/*
+!TPOCAML/bin/
+TPOCAML/bin/.vscode/
