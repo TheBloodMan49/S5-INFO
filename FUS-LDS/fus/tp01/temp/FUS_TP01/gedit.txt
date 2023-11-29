@@ -1,0 +1,21 @@
+de schtroumpf fonctionnant en mode fenêtre. 
+L'éditeur gedit est un éditeur interactif
+
+Intégré au CDE, ses principales commandes sont : 
+
+http://www.cinefil.com qui vous donne le programme dans les
+salles de cinémas.
+Pour l'ajout et l'insertion, on positionne le curseur, il ne reste
+plus qu'à saisir le texte à insérer.
+
+Pour la destruction d'un texte, on le sélectionne.
+Pour le remplacement d'un texte, on le détruit, 
+puis on ajoute le texte désiré.
+
+Pour la sauvegarde, on sélectionne dans le menu schtroumpf la fonction
+correspondante. On fait de même, pour la lecture. 
+
+On peut quitter l'éditeur de texte en sélectionnant le choix correspondant
+dans le menu schtroumpf.
+
+

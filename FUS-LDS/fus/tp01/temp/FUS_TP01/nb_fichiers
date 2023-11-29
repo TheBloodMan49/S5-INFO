@@ -1,0 +1,5 @@
+#!/bin/tcsh
+echo "Analyse du contenu du répertoire `pwd` :"
+echo -n "   Nombre de fichiers    : ";ls -l | grep "^-" | wc -l
+echo -n "   Nombre de répertoires : ";ls -l | grep "^d" | wc -l
+

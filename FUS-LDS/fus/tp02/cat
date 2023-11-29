@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "Faux progamme d'affichage du contenu d'un fichier"

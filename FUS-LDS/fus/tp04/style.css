@@ -1,0 +1,115 @@
+Gen{
+	display: block
+}
+INDI {
+	display: block;
+	background-color: yellow;
+
+}
+
+INDI:before {
+	content: "0 @" attr(ID) "@ INDI"  ;
+        color: red;
+        text-decoration: underline;
+}
+FAM {
+	display: block;
+
+
+}
+
+FAM:before {
+	content: "0 @" attr(ID) "@ FAM"  ;
+        color: red;
+        text-decoration: underline;
+}
+
+NAME:before {
+  content: "1 NAME ";
+}
+
+NAME {
+ display: block;
+ color: blue;
+}
+
+
+
+S:before {
+  content:"/";
+}
+
+S:after {
+  content:"/";
+}
+
+SEX:before {
+  content:" 1 SEX";
+ 
+  }
+
+SEX {
+	display: block;
+	color: blue;
+} 
+
+OCCU:before{
+    content: "1 OCCU";
+}
+
+OCCU{
+  display: block;
+  color:blue
+}
+
+EVEN {
+  display: block;
+  color: red;
+  background-color: pink;
+}
+
+EVEN:before {
+	content: "1 " attr(EV) ;
+	color: blue;
+
+}
+
+DATE, PLAC, SOUR{
+  display: block;
+  color: green;
+ 
+}
+
+DATE:before{
+  content: "2 DATE";
+}
+PLAC:before{
+  content: "2 PLAC";
+}
+SOUR:before{
+  content: "2 SOUR";
+}
+FAMC:before{
+   content:"1 FAMC @" attr(REF) "@";
+}
+
+FAMC{ display: block;
+      color: blue}
+FAMS:before{
+   content:"1 FAMS @" attr(REF) "@";
+}
+FAMS{ display: block;
+      color: blue
+}
+HUSB:before{
+   content:"1 HUSB @" attr(REF) "@";
+}
+HUSB,WIFE,CHIL { display: block;
+      color: blue
+}
+WIFE:before{
+   content:"1 WIFE @" attr(REF) "@";
+}
+CHIL:before{
+   content:"1 CHIL @" attr(REF) "@";
+}

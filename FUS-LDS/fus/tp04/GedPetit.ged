@@ -1,0 +1,24 @@
+0 @142070@ INDI
+1 NAME Vincent/GASSOT/
+1 SEX M
+1 OCCU cultivateur
+1 BIRT
+2 DATE 1754
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+1 FAMS @142074@
+0 @142072@ INDI
+1 NAME Marie/LEMONNIER/
+1 SEX F
+1 DEAT
+2 DATE 5 JAN 1820
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+1 FAMS @142074@
+1 FAMC @142120@
+0 @142074@ FAM
+1 HUSB @142070@
+1 WIFE @142072@
+1 CHIL @142053@
+1 MARR
+2 DATE 1796
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+

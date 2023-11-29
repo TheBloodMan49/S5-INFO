@@ -1,0 +1,29 @@
+#!/bin/bash
+
+NBFICH=0
+NBREP=0
+NBLINKFICH=0
+NBLINKREP=0
+
+for i in *
+do 
+ if [ -f $i ] && ! [ -L $i ]
+  then 
+   NBFICH=$((NBFICH+1))
+  elif [ -d $i ] && ! [ -L $i ] 
+   then
+    NBREP=$((NBREP+1))
+  elif [ -f $i ] && [ -L $i ]
+   then 
+    NBLINKFICH=$((NBLINKFICH+1))
+  elif [ -d $i ] && [ -L $i ] 
+   then
+    NBLINKREP=$((NBLINKREP+1))
+ fi
+done
+
+echo -e "Nombre de fichier                  : $NBFICH"
+echo -e "Nombre de répertoire               : $NBREP"				
+
+echo -e "Nombre de liens vers un fichier    : $NBLINKFICH"
+echo -e "Nombre de liens vers un répertoire : $NBLINKREP"	

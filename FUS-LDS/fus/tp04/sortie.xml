@@ -1,0 +1,32 @@
+<?xml-stylesheet href="style.css" type="text/css"?>
+<GEN>
+<INDI ID="142070">
+<NAME>Vincent<S>GASSOT</S></NAME>
+<SEX>M</SEX>
+<OCCU>cultivateur</OCCU>
+<EVEN EV='BIRT'>
+<DATE>1754</DATE>
+<PLAC>Cherrueix,35120,,Ille-et-Vilaine,France</PLAC>
+</EVEN>
+</INDI>
+<FAMS REF="142074"></FAMS>
+<INDI ID="142072">
+<NAME>Marie<S>LEMONNIER</S></NAME>
+<SEX>F</SEX>
+<EVEN EV='DEAT'>
+<DATE>5 JAN 1820</DATE>
+<PLAC>Cherrueix,35120,,Ille-et-Vilaine,France</PLAC>
+</EVEN>
+</INDI>
+<FAMS REF="142074"></FAMS>
+<FAMC REF="142120"></FAMC>
+<FAM ID="142074">
+<HUSB REF="142070"></HUSB>
+<WIFE REF="142072"></WIFE>
+<CHIL REF="142053"></CHIL>
+<EVEN EV='MARR'>
+<DATE>1796</DATE>
+<PLAC>Cherrueix,35120,,Ille-et-Vilaine,France</PLAC>
+</EVEN>
+</FAM>
+</GEN>

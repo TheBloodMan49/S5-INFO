@@ -1,0 +1,3 @@
+#!/bin/bash
+message="Bonjour le monde !"
+echo $message

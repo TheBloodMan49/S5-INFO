@@ -1,0 +1,235 @@
+0 HEAD
+1 SOUR HEREDIS 98 PC
+2 VERS 4.0
+2 CORP bsd concept Montpellier France - phone (33) 4 67 20 40 40
+1 CHAR ANSI
+1 LANG FRENCH
+1 GEDC
+2 VERS 5.5
+0 @142063@ INDI
+1 NAME Guillaume Mathurin/GASSOT/
+1 SEX M
+1 OCCU laboureur, cultivateur
+1 BIRT
+2 DATE 23 OCT 1835
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 RESI
+2 DATE 1873
+2 PLAC Mont-Dol,35120,La Villeneuve,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMS @142101@
+1 FAMC @142057@
+0 @142037@ INDI
+1 NAME Josephine Marie/GASSOT/
+1 SEX F
+1 OCCU cultivatrice
+1 BIRT
+2 DATE 30 AUG 1831
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Registre 1896 BP et Table Parchemin
+1 FAMS @142043@
+1 FAMC @142057@
+0 @142112@ INDI
+1 NAME Josephine Marie/GASSOT/
+1 SEX F
+1 BIRT
+2 DATE 25 MAR 1875
+2 PLAC Mont-Dol,35120,La Villeneuve,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMC @142101@
+0 @142114@ INDI
+1 NAME Julien Marie Theodore/GASSOT/
+1 SEX M
+1 BIRT
+2 DATE 31 MAR 1888
+2 PLAC Mont-Dol,35120,La Villeneuve,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMC @142093@
+0 @142116@ INDI
+1 NAME Marie Josephine/GASSOT/
+1 SEX F
+1 BIRT
+2 DATE 17 OCT 1876
+2 PLAC Mont-Dol,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMC @142101@
+0 @142070@ INDI
+1 NAME Vincent/GASSOT/
+1 SEX M
+1 OCCU cultivateur
+1 BIRT
+2 DATE 1754
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMS @142074@
+0 @142053@ INDI
+1 NAME Vincent Guillaume/GASSOT/
+1 SEX M
+1 OCCU laboureur, proprietaire
+1 BIRT
+2 DATE 10 FEB 1798
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 DEAT
+2 DATE AFT  1873
+2 SOUR Table Parchemin
+1 FAMS @142057@
+1 FAMC @142074@
+0 @142061@ INDI
+1 NAME Vincent Jean/GASSOT/
+1 SEX M
+1 OCCU laboureur, cultivateur
+1 BIRT
+2 DATE 19 DEC 1828
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 NOTE domicilie "La Villeneuve"
+2 SOUR Table Parchemin
+1 FAMS @142093@
+1 FAMC @142057@
+0 @142083@ INDI
+1 NAME ?/LEMONNIER/
+1 SEX M
+1 REFN 1
+0 @142072@ INDI
+1 NAME Marie/LEMONNIER/
+1 SEX F
+1 DEAT
+2 DATE 5 JAN 1820
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMS @142074@
+1 FAMC @142120@
+0 @142084@ INDI
+1 NAME Mathurin Francois/LEMONNIER/
+1 SEX M
+1 OCCU officier retraite a Cherrueix en 1828
+1 BIRT
+2 DATE 1772
+2 SOUR Table Parchemin
+1 FAMC @142120@
+0 @142055@ INDI
+1 NAME Francoise Rose/MEURY/
+1 SEX F
+1 OCCU femme de menage, proprietaire
+1 BIRT
+2 DATE 3 JAN 1801
+2 PLAC Mont-Dol,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 DEAT
+2 DATE AFT  1873
+2 SOUR Table Parchemin
+1 FAMS @142057@
+0 @142039@ INDI
+1 NAME Jean Marie Francois/PACARIN/
+1 SEX M
+1 BURI
+2 DATE 27 JAN 1896
+2 PLAC Baguer-Pican,35120,,Ille-et-Vilaine,France
+2 SOUR Registre 1896 BP
+1 BIRT
+2 DATE 30 DEC 1836
+2 PLAC Baguer-Pican,35120,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 DEAT
+2 DATE 25 JAN 1896
+2 PLAC Baguer-Pican,35120,Launay,Ille-et-Vilaine,France
+2 AGE 59
+2 SOUR Registre 1896 BP
+1 CHR
+2 DATE 31 DEC 1836
+2 PLAC Baguer-Pican,35120,,Ille-et-Vilaine,France
+2 NOTE parrain Jean PACARIN 
+3 CONT marraine Marie LECOMTE 
+2 SOUR Registre 1896 BP
+1 FAMS @142043@
+0 @57931@ INDI
+1 NAME Anne Marie/SABLE/
+1 SEX F
+1 OCCU journaliere, domestique
+1 BIRT
+2 DATE 24 MAR 1846
+2 PLAC Hirel,35120,L'Aupiniere,Ille-et-Vilaine,France
+2 SOUR Recensements 1851/1866
+1 CHR
+2 DATE 24 MAR 1846
+2 PLAC Hirel,35120,,Ille-et-Vilaine,France
+2 SOUR Registre 1846
+1 FAMS @142093@
+0 @140575@ INDI
+1 NAME Anne Adolphine/TURMEL/
+1 SEX F
+1 OCCU menagere
+1 BIRT
+2 DATE 29 OCT 1850
+2 PLAC La Fresnais,35111,,Ille-et-Vilaine,France
+2 SOUR Table Parchemin
+1 FAMS @142101@
+0 @142119@ FAM
+0 @142043@ FAM
+1 HUSB @142039@
+1 WIFE @142037@
+1 MARR
+2 DATE 23 OCT 1866
+2 PLAC Mont-Dol,35120,,Ille-et-Vilaine,France
+2 ASSO @142063@
+3 TYPE INDI
+3 RELA Witness
+2 ASSO @142061@
+3 TYPE INDI
+3 RELA Witness
+2 SOUR Table CGIV et Table Parchemin
+0 @142057@ FAM
+1 HUSB @142053@
+1 WIFE @142055@
+1 CHIL @142037@
+1 CHIL @142061@
+1 CHIL @142063@
+1 MARR
+2 DATE 10 FEB 1828
+2 PLAC Mont-Dol,35120,,Ille-et-Vilaine,France
+2 ASSO @142070@
+3 TYPE INDI
+3 RELA Witness
+2 ASSO @142084@
+3 TYPE INDI
+3 RELA Witness
+2 NOTE autres temoins : 
+3 CONT Jean ROQUILLARD 34 ans cultivateur a Cherrueix 
+3 CONT cousin germain de l'epoux 
+3 CONT Jean Baptiste LEROY 23 ans macon a Dol
+2 SOUR Table CGIV et Parchemin
+0 @142093@ FAM
+1 HUSB @142061@
+1 WIFE @57931@
+1 CHIL @142114@
+1 MARR
+2 DATE 12 DEC 1871
+2 PLAC Mont-Dol,35120,,Ille-et-Vilaine,France
+2 ASSO @142039@
+3 TYPE INDI
+3 RELA Witness
+2 SOUR Table Parchemin
+0 @142101@ FAM
+1 HUSB @142063@
+1 WIFE @140575@
+1 CHIL @142112@
+1 CHIL @142116@
+1 MARR
+2 DATE 1 JUL 1873
+2 PLAC La Fresnais,35111,,Ille-et-Vilaine,France
+2 SOUR Table CGIV et Parchemin
+0 @142074@ FAM
+1 HUSB @142070@
+1 WIFE @142072@
+1 CHIL @142053@
+1 MARR
+2 DATE 1796
+2 PLAC Cherrueix,35120,,Ille-et-Vilaine,France
+2 SOUR Table CGIV
+0 @142120@ FAM
+1 HUSB @142083@
+1 CHIL @142072@
+1 CHIL @142084@
+0 TRLR
+
