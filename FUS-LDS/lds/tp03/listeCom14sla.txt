@@ -1,0 +1,696 @@
+14001;Ablon
+14002;Acqueville
+14003;Agy
+14004;Aignerville
+14005;Airan
+14006;Amaye-sur-Orne
+14007;Amaye-sur-Seulles
+14008;Amblie
+14009;Amfreville
+14011;Anctoville
+14012;Angerville
+14013;Angoville
+14014;Anguerny
+14015;Anisy
+14016;Annebault
+14019;Arganchy
+14020;Argences
+14021;Arromanches-les-Bains
+14022;Asnelles
+14023;Asnieres-en-Bessin
+14024;Auberville
+14025;Aubigny
+14026;Audrieu
+14027;Aunay-sur-Odon
+14028;Auquainville
+14029;Les Autels-Saint-Bazile
+14030;Authie
+14031;Les Authieux-Papion
+14032;Les Authieux-sur-Calonne
+14033;Auvillars
+14034;Avenay
+14035;Balleroy
+14036;Banneville-la-Campagne
+14037;Banneville-sur-Ajon
+14038;Banville
+14039;Barbery
+14040;Barbeville
+14041;Barneville-la-Bertran
+14042;Baron-sur-Odon
+14043;Barou-en-Auge
+14044;Basly
+14045;Basseneville
+14056;Bauquay
+14046;Bavent
+14047;Bayeux
+14049;Bazenville
+14050;La Bazoque
+14231;Beaufour-Druval
+14052;Beaulieu
+14053;Beaumais
+14054;Beaumesnil
+14055;Beaumont-en-Auge
+14057;Bellengreville
+14058;Bellou
+14059;Benerville-sur-Mer
+14060;Benouville
+14061;Le Beny-Bocage
+14062;Beny-sur-Mer
+14063;Bernesq
+14064;Bernieres-d Ailly
+14065;Bernieres-le-Patry
+14066;Bernieres-sur-Mer
+14069;Beuvillers
+14070;Beuvron-en-Auge
+14068;Bieville-Beuville
+14527;Bieville-Quetieville
+14073;La Bigne
+14074;Billy
+14075;Bissieres
+14076;Blainville-sur-Orne
+14077;Blangy-le-Chateau
+14078;Blay
+14079;Blonville-sur-Mer
+14080;Le Bo
+14081;Boissey
+14082;La Boissiere
+14083;Bonnebosq
+14084;Bonnemaison
+14085;Bonneville-la-Louvet
+14086;Bonneville-sur-Touques
+14087;Bonnoeil
+14088;Bons-Tassilly
+14089;Bougy
+14090;Boulon
+14091;Bourgeauville
+14092;Bourguebus
+14093;Branville
+14096;Bremoy
+14097;Bretteville-le-Rabet
+14098;Bretteville-l Orgueilleuse
+14099;Bretteville-sur-Dives
+14100;Bretteville-sur-Laize
+14101;Bretteville-sur-Odon
+14102;Le Breuil-en-Auge
+14103;Le Breuil-en-Bessin
+14104;Le Brevedent
+14105;La Breviere
+14106;Breville-les-Monts
+14107;Bricqueville
+14109;Brouay
+14110;Brucourt
+14111;Buceels
+14113;Burcy
+14115;Bures-les-Monts
+14116;Le Bu-sur-Rouvres
+14117;Cabourg
+14118;Caen
+14119;Cagny
+14120;Cahagnes
+14121;Cahagnolles
+14122;La Caine
+14123;Cairon
+14124;La Cambe
+14125;Cambes-en-Plaine
+14126;Cambremer
+14127;Campagnolles
+14128;Campandre-Valcongrain
+14129;Campeaux
+14130;Campigny
+14131;Canapville
+14132;Canchy
+14134;Canteloup
+14135;Carcagny
+14136;Cardonville
+14137;Carpiquet
+14138;Cartigny-l epinay
+14139;Carville
+14140;Castillon
+14141;Castillon-en-Auge
+14142;Castilly
+14143;Caumont-l evente
+14144;Caumont-sur-Orne
+14145;Cauvicourt
+14146;Cauville
+14147;Cernay
+14148;Cerqueux
+14149;Cesny-aux-Vignes
+14150;Cesny-Bois-Halbout
+14151;Champ-du-Boult
+14152;La Chapelle-Engerbold
+14153;La Chapelle-Haute-Grue
+14154;La Chapelle-Yvon
+14155;Cheffreville-Tonnencourt
+14156;Chenedolle
+14157;Cheux
+14158;Chicheboville
+14159;Chouain
+14160;Cintheaux
+14161;Clarbec
+14162;Clecy
+14163;Cleville
+14164;Clinchamps-sur-Orne
+14166;Colleville-Montgomery
+14165;Colleville-sur-Mer
+14167;Colombelles
+14168;Colombieres
+14169;Colombiers-sur-Seulles
+14170;Colomby-sur-Thaon
+14171;Combray
+14172;Commes
+14173;Conde-sur-Ifs
+14174;Conde-sur-Noireau
+14175;Conde-sur-Seulles
+14176;Conteville
+14177;Coquainvilliers
+14178;Corbon
+14179;Cordebugle
+14180;Cordey
+14181;Cormelles-le-Royal
+14182;Cormolain
+14183;Cossesseville
+14184;Cottun
+14185;Coudray-Rabut
+14186;Coulombs
+14187;Coulonces
+14188;Coulvain
+14189;Coupesarte
+14190;Courcy
+14191;Courseulles-sur-Mer
+14192;Courson
+14193;Courtonne-la-Meurdrac
+14194;Courtonne-les-Deux-eglises
+14195;Courvaudon
+14196;Crepon
+14197;Cresserons
+14198;Cresseveuille
+14200;Creully
+14201;Crevecoeur-en-Auge
+14202;Cricqueboeuf
+14203;Cricqueville-en-Auge
+14204;Cricqueville-en-Bessin
+14205;Cristot
+14206;Crocy
+14207;Croisilles
+14208;Croissanville
+14209;Crouay
+14210;La Croupte
+14211;Culey-le-Patry
+14212;Cully
+14213;Curcy-sur-Orne
+14214;Cussy
+14215;Cuverville
+14216;Damblainville
+14217;Dampierre
+14218;Danestal
+14219;Danvou-la-Ferriere
+14220;Deauville
+14221;Demouville
+14222;Le Desert
+14223;Le Detroit
+14224;Deux-Jumeaux
+14225;Dives-sur-Mer
+14226;Donnay
+14227;Douville-en-Auge
+14228;Douvres-la-Delivrande
+14229;Dozule
+14230;Drubec
+14232;Ducy-Sainte-Marguerite
+14235;Ellon
+14237;Englesqueville-en-Auge
+14239;Englesqueville-la-Percee
+14240;Eraines
+14245;Ernes
+14246;Escoville
+14248;Espins
+14249;Esquay-Notre-Dame
+14250;Esquay-sur-Seulles
+14251;Esson
+14252;Estrees-la-Campagne
+14253;Estry
+14254;Falaise
+14259;Familly
+14260;Fauguernon
+14261;Le Faulq
+14264;La Ferriere-Harang
+14265;Fervaques
+14266;Feuguerolles-Bully
+14268;Fierville-Bray
+14269;Fierville-les-Parcs
+14270;Firfol
+14271;Fleury-sur-Orne
+14272;La Folie
+14273;La Folletiere-Abenon
+14274;Fontaine-etoupefour
+14275;Fontaine-Henry
+14276;Fontaine-le-Pin
+14277;Fontenay-le-Marmion
+14278;Fontenay-le-Pesnel
+14279;Fontenermont
+14280;Formentin
+14281;Formigny
+14282;Foulognes
+14283;Fourches
+14284;Fourneaux-le-Val
+14285;Le Fournet
+14286;Fourneville
+14287;Frenouville
+14288;Le Fresne-Camilly
+14289;Fresne-la-Mere
+14290;Fresney-le-Puceux
+14291;Fresney-le-Vieux
+14292;Friardel
+14293;Fumichon
+14294;Garcelles-Secqueville
+14296;Le Gast
+14297;Gavrus
+14298;Gefosse-Fontenay
+14299;Genneville
+14300;Gerrots
+14301;Giberville
+14302;Glanville
+14303;Glos
+14306;Gonneville-en-Auge
+14304;Gonneville-sur-Honfleur
+14305;Gonneville-sur-Mer
+14307;Goupillieres
+14308;Goustranville
+14309;Gouvix
+14310;Grainville-Langannerie
+14311;Grainville-sur-Odon
+14312;Grandcamp-Maisy
+14313;Grandchamp-le-Chateau
+14316;Grangues
+14317;La Graverie
+14318;Graye-sur-Mer
+14319;Grentheville
+14320;Grimbosq
+14322;Gueron
+14324;Hamars
+14325;Hermanville-sur-Mer
+14326;Hermival-les-Vaux
+14327;Herouville-Saint-Clair
+14328;Herouvillette
+14329;Heuland
+14330;Heurtevent
+14331;Hieville
+14332;La Hoguette
+14333;Honfleur
+14334;L Hotellerie
+14335;Hotot-en-Auge
+14336;Hottot-les-Bagues
+14337;La Houblonniere
+14338;Houlgate
+14339;Hubert-Folie
+14341;Ifs
+14342;Isigny-sur-Mer
+14343;Les Isles-Bardel
+14344;Janville
+14345;Jort
+14346;Juaye-Mondaye
+14347;Jurques
+14348;Juvigny-sur-Seulles
+14349;Laize-la-Ville
+14352;Landelles-et-Coupigny
+14353;Landes-sur-Ajon
+14350;La Lande-sur-Drome
+14354;Langrune-sur-Mer
+14355;Lantheuil
+14356;Lasson
+14357;Lassy
+14358;Leaupartie
+14359;Lecaude
+14360;Leffard
+14361;Lenault
+14362;Lessard-et-le-Chene
+14364;Lingevres
+14365;Lion-sur-Mer
+14366;Lisieux
+14367;Lison
+14368;Lisores
+14369;Litteau
+14371;Livarot
+14372;Livry
+14373;Le Locheur
+14374;Les Loges
+14375;Les Loges-Saulces
+14376;Longraye
+14377;Longues-sur-Mer
+14378;Longueville
+14379;Longvillers
+14380;Loucelles
+14381;Louvagny
+14382;Louvieres
+14383;Louvigny
+14384;Luc-sur-Mer
+14385;Magny-en-Bessin
+14386;Magny-la-Campagne
+14387;Magny-le-Freule
+14388;Maisoncelles-la-Jourdan
+14389;Maisoncelles-Pelvey
+14390;Maisoncelles-sur-Ajon
+14391;Maisons
+14393;Maizet
+14394;Maizieres
+14395;Malloue
+14396;Maltot
+14397;Mandeville-en-Bessin
+14398;Manerbe
+14399;Manneville-la-Pipard
+14400;Le Manoir
+14401;Manvieux
+14402;Le Marais-la-Chapelle
+14403;Marolles
+14404;Martainville
+14405;Martigny-sur-l Ante
+14406;Martragny
+14407;Mathieu
+14408;May-sur-Orne
+14409;Merville-Franceville-Plage
+14410;Mery-Corbon
+14411;Meslay
+14412;Le Mesnil-au-Grain
+14413;Le Mesnil-Auzouf
+14414;Le Mesnil-Bacley
+14415;Le Mesnil-Benoist
+14416;Le Mesnil-Caussois
+14417;Mesnil-Clinchamps
+14418;Le Mesnil-Durand
+14419;Le Mesnil-Eudes
+14420;Le Mesnil-Germain
+14421;Le Mesnil-Guillaume
+14422;Le Mesnil-Mauger
+14423;Le Mesnil-Patry
+14424;Le Mesnil-Robert
+14425;Le Mesnil-Simon
+14426;Le Mesnil-sur-Blangy
+14427;Le Mesnil-Villement
+14429;Meulles
+14430;Meuvaines
+14431;Mezidon-Canon
+14432;Missy
+14433;Mittois
+14370;Le Molay-Littry
+14435;Les Monceaux
+14436;Monceaux-en-Bessin
+14437;Mondeville
+14438;Mondrainville
+14439;Monfreville
+14440;Montamy
+14441;Mont-Bertrand
+14442;Montchamp
+14443;Montchauvet
+14444;Monteille
+14445;Montfiquet
+14446;Montigny
+14448;Montreuil-en-Auge
+14449;Monts-en-Bessin
+14450;Montviette
+14452;Morteaux-Couliboeuf
+14453;Mosles
+14454;Mouen
+14455;Moulines
+14456;Moult
+14457;Les Moutiers-en-Auge
+14458;Les Moutiers-en-Cinglais
+14459;Les Moutiers-Hubert
+14460;Moyaux
+14461;Mutrecy
+14462;Neuilly-la-Foret
+14465;Nonant
+14466;Norolles
+14467;Noron-l Abbaye
+14468;Noron-la-Poterie
+14469;Norrey-en-Auge
+14471;Notre-Dame-de-Courson
+14473;Notre-Dame-de-Livaye
+14474;Notre-Dame-d Estrees
+14475;Noyers-Bocage
+14476;Olendon
+14477;Ondefontaine
+14478;Orbec
+14480;Osmanville
+14481;Les Oubeaux
+14697;L Oudon
+14482;Ouezy
+14483;Ouffieres
+14484;Ouilly-du-Houley
+14486;Ouilly-le-Tesson
+14487;Ouilly-le-Vicomte
+14488;Ouistreham
+14489;Ouville-la-Bien-Tournee
+14491;Parfouru-sur-Odon
+14492;Pennedepie
+14493;Percy-en-Auge
+14494;Periers-en-Auge
+14495;Periers-sur-le-Dan
+14496;Perigny
+14497;Perrieres
+14498;Pertheville-Ners
+14499;Petiville
+14500;Pierrefitte-en-Auge
+14501;Pierrefitte-en-Cinglais
+14502;Pierrepont
+14503;Pierres
+14504;Le Pin
+14505;Placy
+14506;Planquery
+14508;Le Plessis-Grimoult
+14509;Plumetot
+14510;La Pommeraye
+14511;Pont-Bellanger
+14764;Pont-d Ouilly
+14512;Pontecoulant
+14513;Pont-Farcy
+14514;Pont-l eveque
+14515;Port-en-Bessin-Huppain
+14516;Potigny
+14517;Poussy-la-Campagne
+14519;Preaux-Bocage
+14518;Preaux-Saint-Sebastien
+14520;Le Pre-d Auge
+14521;Presles
+14522;Pretreville
+14523;Proussy
+14524;Putot-en-Auge
+14525;Putot-en-Bessin
+14528;Quetteville
+14529;Ranchy
+14530;Ranville
+14531;Rapilly
+14532;Le Reculey
+14533;Repentigny
+14534;Reux
+14535;Reviers
+14536;La Riviere-Saint-Sauveur
+14538;Rocquancourt
+14539;La Rocque
+14540;Rocques
+14541;La Roque-Baignard
+14542;Rosel
+14543;Rots
+14544;Roucamps
+14545;Roullours
+14546;Rouvres
+14547;Rubercy
+14548;Rucqueville
+14549;Rully
+14550;Rumesnil
+14551;Russy
+14552;Ryes
+14553;Saint-Agnan-le-Malherbe
+14554;Saint-Aignan-de-Cramesnil
+14555;Saint-Andre-d Hebertot
+14556;Saint-Andre-sur-Orne
+14557;Saint-Arnoult
+14558;Saint-Aubin-d Arquenay
+14559;Saint-Aubin-des-Bois
+14562;Saint-Aubin-sur-Mer
+14563;Saint-Benoit-d Hebertot
+14564;Saint-Charles-de-Percy
+14565;Saint-Come-de-Fresne
+14566;Saint-Contest
+14570;Saint-Cyr-du-Ronceray
+14571;Saint-Denis-de-Mailloc
+14572;Saint-Denis-de-Mere
+14573;Saint-Denis-Maisoncelles
+14574;Saint-Desir
+14575;Saint-etienne-la-Thillaye
+14577;Saint-Gabriel-Brecy
+14578;Saint-Gatien-des-Bois
+14579;Saint-Georges-d Aunay
+14580;Saint-Georges-en-Auge
+14581;Saint-Germain-d Ectot
+14582;Saint-Germain-de-Livet
+14583;Saint-Germain-de-Montgommery
+14584;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+14585;Saint-Germain-du-Crioult
+14586;Saint-Germain-du-Pert
+14587;Saint-Germain-la-Blanche-Herbe
+14588;Saint-Germain-Langot
+14589;Saint-Germain-le-Vasson
+14593;Saint-Hymer
+14595;Saint-Jean-de-Livet
+14596;Saint-Jean-des-Essartiers
+14597;Saint-Jean-le-Blanc
+14598;Saint-Jouin
+14599;Saint-Julien-de-Mailloc
+14600;Saint-Julien-le-Faucon
+14601;Saint-Julien-sur-Calonne
+14602;Saint-Lambert
+14603;Saint-Laurent-de-Condel
+14604;Saint-Laurent-du-Mont
+14605;Saint-Laurent-sur-Mer
+14606;Saint-Leger-Dubosq
+14607;Saint-Louet-sur-Seulles
+14608;Saint-Loup-de-Fribois
+14609;Saint-Loup-Hors
+14611;Saint-Manvieu-Bocage
+14610;Saint-Manvieu-Norrey
+14613;Saint-Marcouf
+14620;Saint-Martin-aux-Chartrains
+14621;Saint-Martin-de-Bienfaite-la-Cressonniere
+14622;Saint-Martin-de-Blagny
+14623;Saint-Martin-de-Fontenay
+14625;Saint-Martin-de-la-Lieue
+14626;Saint-Martin-de-Mailloc
+14627;Saint-Martin-de-Mieux
+14628;Saint-Martin-de-Sallen
+14629;Saint-Martin-des-Besaces
+14630;Saint-Martin-des-Entrees
+14632;Saint-Martin-Don
+14633;Saint-Martin-du-Mesnil-Oury
+14634;Saint-Michel-de-Livet
+14635;Saint-Omer
+14636;Saint-Ouen-des-Besaces
+14637;Saint-Ouen-du-Mesnil-Oger
+14638;Saint-Ouen-le-Houx
+14639;Saint-Ouen-le-Pin
+14640;Saint-Pair
+14643;Saint-Paul-du-Vernay
+14644;Saint-Philbert-des-Champs
+14645;Saint-Pierre-Azif
+14646;Saint-Pierre-Canivet
+14647;Saint-Pierre-de-Mailloc
+14648;Saint-Pierre-des-Ifs
+14649;Saint-Pierre-du-Bu
+14650;Saint-Pierre-du-Fresne
+14651;Saint-Pierre-du-Jonquet
+14652;Saint-Pierre-du-Mont
+14653;Saint-Pierre-la-Vieille
+14654;Saint-Pierre-sur-Dives
+14655;Saint-Pierre-Tarentaine
+14656;Saint-Remy
+14657;Saint-Samson
+14658;Saint-Sever-Calvados
+14659;Saint-Sylvain
+14660;Saint-Vaast-en-Auge
+14661;Saint-Vaast-sur-Seulles
+14662;Saint-Vigor-des-Mezerets
+14663;Saint-Vigor-le-Grand
+14568;Sainte-Croix-Grand-Tonne
+14569;Sainte-Croix-sur-Mer
+14576;Sainte-Foy-de-Montgommery
+14590;Sainte-Honorine-de-Ducy
+14591;Sainte-Honorine-des-Pertes
+14592;Sainte-Honorine-du-Fay
+14614;Sainte-Marguerite-d Elle
+14615;Sainte-Marguerite-des-Loges
+14616;Sainte-Marguerite-de-Viette
+14618;Sainte-Marie-Laumont
+14619;Sainte-Marie-Outre-l Eau
+14664;Sallen
+14665;Sallenelles
+14666;Sannerville
+14667;Saon
+14668;Saonnet
+14669;Sassy
+14670;Secqueville-en-Bessin
+14671;Sept-Freres
+14672;Sept-Vents
+14674;Soignolles
+14675;Soliers
+14676;Sommervieu
+14677;Soulangy
+14678;Soumont-Saint-Quentin
+14679;Subles
+14680;Sully
+14681;Surrain
+14682;Surville
+14684;Tessel
+14685;Thaon
+14686;Le Theil-Bocage
+14687;Le Theil-en-Auge
+14688;Thieville
+14689;Thury-Harcourt
+14690;Tierceville
+14691;Tilly-la-Campagne
+14692;Tilly-sur-Seulles
+14693;Tordouet
+14694;Le Torquesne
+14695;Torteval-Quesnay
+14696;Tortisambert
+14698;Touffreville
+14699;Touques
+14700;Tour-en-Bessin
+14701;Tourgeville
+14702;Tournay-sur-Odon
+14703;Tournebu
+14704;Le Tourneur
+14705;Tournieres
+14706;Tourville-en-Auge
+14707;Tourville-sur-Odon
+14708;Tracy-Bocage
+14709;Tracy-sur-Mer
+14710;Treprel
+14711;Trevieres
+14712;Troarn
+14713;Trois-Monts
+14714;Le Tronquay
+14715;Trouville-sur-Mer
+14716;Trungy
+14717;Truttemer-le-Grand
+14718;Truttemer-le-Petit
+14719;Urville
+14720;Ussy
+14721;Vacognes-Neuilly
+14722;La Vacquerie
+14723;Valseme
+14724;Varaville
+14726;Vassy
+14727;Vaubadon
+14728;Vaucelles
+14729;Vaudeloges
+14730;Vaudry
+14731;Vauville
+14732;Vaux-sur-Aure
+14733;Vaux-sur-Seulles
+14734;Vendes
+14735;Vendeuvre
+14737;Versainville
+14738;Verson
+14739;Ver-sur-Mer
+14740;La Vespiere
+14741;Le Vey
+14742;Vicques
+14743;Victot-Pontfol
+14744;Vienne-en-Bessin
+14745;Vierville-sur-Mer
+14746;Viessoix
+14747;Vieux
+14748;Vieux-Bourg
+14749;Vieux-Fume
+14750;Vieux-Pont-en-Auge
+14751;Vignats
+14752;Villers-Bocage
+14753;Villers-Canivet
+14754;Villers-sur-Mer
+14755;Villerville
+14756;La Villette
+14757;Villiers-le-Sec
+14758;Villons-les-Buissons
+14760;Villy-Bocage
+14759;Villy-lez-Falaise
+14761;Vimont
+14762;Vire
+14763;Vouilly
