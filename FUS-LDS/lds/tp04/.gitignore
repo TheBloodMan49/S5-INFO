@@ -1,0 +1,8 @@
+venv/
+.idea/
+*.html
+*.htm
+*.pyc
+__pycache__/
+
+DVD.db
