@@ -1,0 +1,34 @@
+<PLAN>
+  <LIMITES DX="-20" FX="300" DY="-20" FY="200" FOND="JAUNE"/>
+  <ENSEMBLE FORME="CARRE" TAILLE="4" COULEUR="ROUGE">
+    <POINT X="135" Y="135"/>
+    <POINT X="130" Y="145"/>
+    <POINT X="130" Y="155"/>
+    <POINT X="140" Y="155"/>
+    <POINT X="120" Y="135"/>
+    <POINT X="120" Y="155"/>
+    <POINT X="145" Y="120"/>
+    <POINT X="115" Y="140"/>
+    <POINT X="117" Y="130"/>
+  </ENSEMBLE>
+  <ENSEMBLE FORME="CROIX" TAILLE="4" COULEUR="VERT">
+    <POINT X="10" Y="5"/>
+    <POINT X="13" Y="10"/>
+    <POINT X="17" Y="25"/>
+    <POINT X="20" Y="15"/>
+    <POINT X="28" Y="28"/>
+    <POINT X="30" Y="50"/>
+    <POINT X="35" Y="45"/>
+    <POINT X="10" Y="35"/>
+  </ENSEMBLE>
+  <ENSEMBLE FORME="TRIANGLE" TAILLE="8" COULEUR="BLEU">
+    <POINT X="210" Y="115"/>
+    <POINT X="213" Y="110"/>
+    <POINT X="217" Y="125"/>
+    <POINT X="220" Y="115"/>
+    <POINT X="228" Y="128"/>
+    <POINT X="230" Y="150"/>
+    <POINT X="235" Y="145"/>
+    <POINT X="210" Y="135"/>
+  </ENSEMBLE>
+</PLAN>
