@@ -1,0 +1,131 @@
+---
+title: "Lois marginales, conjointes, conditionnelles"
+output: pdf_document
+fontsize: 11pt
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+# Exercice 2.1 - Exemple loi discrete
+
+```{r}
+#chargement librairie
+library(questionr)
+library(ggplot2)
+library(reshape2)
+library(mvtnorm)
+library(scatterplot3d)
+
+#Generation matrice
+#p 
+p = matrix(nrow = 3, ncol = 4, 
+           data = c(0.02,0.06,0.02,0.1,
+                    0.04,0.15,0.2,0.1,
+                    0.01,0.15,0.14,0.01),
+           byrow = T)
+
+```
+
+
+## Probabilites marginales
+```{r}
+#px 
+px = apply(p, FUN = sum, MARGIN = 1)
+
+#py
+py = apply(p, FUN = sum, MARGIN = 2)
+
+```
+
+## Probabilites conditionnelles - P(X=xi | Y=5) = P(X=xi , Y=5)/P(Y=5)
+```{r}
+#p_X_y5
+p_X_y5 = p[,2]
+
+```
+
+## Fonctions spécifiques
+Utilisation de marginTable et conditionTable
+```{r}
+library(rje)
+
+px = marginTable(p, margin = 1)
+py = marginTable(p, margin = 2)
+p_X_y5 = conditionTable(p, variables = 1, condition = 2, condition.value = 2)
+
+```
+
+# Exercice 2.2 - Loi multinomiale
+
+Modélisation du problème : quelle loi et quels paramètres ?
+
+## Probabilites conjointes
+```{r}
+# construction de toutes les combinaisons possibles
+R = expand.grid(0:12, 0:12)
+R[, 3] = 12 - R[, 1] - R[, 2]
+names(R) = c("x1", "x2", "x3")
+
+# attention, toutes les combinaisons proposées ne sont pas possibles (observez R!), il faudra en tenir compte dans la suite
+
+```
+
+```{r}
+# calcul des probabilites associees a toutes les combinaisons possibles (vérifiez !)
+theta = c(18/38, 18/38, 2/38)
+
+filter = function(row) {
+  if (row["x3"] < 0) { 0 }
+  else { dmultinom(row, 12, theta)}
+}
+
+R$p = apply(R, MARGIN = 1, FUN = filter)
+
+```
+
+```{r}
+# calcul des probabilites marginales 
+px3 = tapply(R$p, INDEX = R$x3, FUN = sum)
+
+```
+
+## Visualisation
+```{r}
+# attention, si erreur du type "Error in plot.new() : figure margins too large"
+# il suffit d'elargir la fenêtre de visu... si, si...
+library(latex2exp)
+library(scatterplot3d)
+
+par(  # Modification des couleurs 
+  col.main="red", col.axis = "blue",
+   # Modification des tailles de police
+  cex.main = 1.2, cex.axis = 1.0, cex.lab = 1.2)
+
+scatterplot3d(x = R$x1, y = R$x2, z = R$x3, 
+              color = grey(0.9-R$p*5), 
+              type = "p",  # tracer des points
+              pch = 16,    # remplir les points
+              xlab = TeX(r'($x_1$)'),                
+              ylab = TeX(r'($x_2$)'), 
+              zlab = TeX(r'($x_3$)'),
+              main = "Fonction de masse de la loi multinomiale",
+              sub ="couleur sombre = probabilite forte")
+
+```
+
+# Exercice 3 : Analyse multivariée
+
+## Récupération des données
+```{r}
+Vins = read.csv2("DonneesVins.csv", 
+                 header = T,
+                 sep = ";",
+                 dec = ",")
+```
+
+
+
