@@ -149,19 +149,81 @@ livraison(f4, p1, 300).
 % SECTION 2 : Opération relationnelles
 % ============================================================================= 
 
+selection_lyon(NumPiece, Nom) :- piece(NumPiece, Nom, lyon).
 
+projection(Nom, Ville) :- piece(_, Nom, Ville).
 
+intersection(Nom, Ville) :- 
+    demandeFournisseur(Nom, Ville),
+    fournisseurReference(_, Nom, Ville).
 
+notIntersection(Nom, Ville) :- 
+    intersection(Nom, Ville),
+    !,
+    fail.
+notIntersection(_, _).
+
+difference(Nom, Ville) :- 
+    demandeFournisseur(Nom, Ville),
+    notIntersection(Nom, Ville).
+
+union(Nom, Ville) :- difference(Nom, Ville).
+union(Nom, Ville) :- fournisseurReference(_, Nom, Ville).
+
+produit_cartesien(NumF1, Nom, Ville, NumF2, Piece, Quantite) :- 
+    fournisseurReference(NumF1, Nom, Ville),
+    livraison(NumF2, Piece, Quantite).
+
+jointure(NumF, Nom, Ville, Piece, Quantite) :-
+    produit_cartesien(NumF, Nom, Ville, NumF, Piece, Quantite),
+    demandeFournisseur(Nom, Ville).
+
+jointure_sup(NumF, Nom, Ville, Piece, Quantite) :-
+    jointure(NumF, Nom, Ville, Piece, Quantite),
+    Quantite > 300.
+
+fournitToutDeLyon(F) :-
+    piece(P, _, lyon),
+    not(livraison(F, P, _)),
+    !,
+    fail.
+fournitToutDeLyon(_).
+
+division(F) :-
+    fournisseurReference(F, _, _),
+    fournitToutDeLyon(F).
+
+total_pieces_livrees_fournisseur(NumF, QteLivree) :-
+    fournisseurReference(NumF, _, _),
+    findall(Qte, livraison(NumF, _, Qte), Qtes),
+    sum_list(Qtes, QteLivree).
+
+sum_list([], 0).
+sum_list([H|T], Sum) :-
+    sum_list(T, Rest),
+    Sum is H + Rest.
 
 % ============================================================================= 
 % SECTION 3 : Au delà de l’algèbre relationnelle
 % ============================================================================= 
 
+est_compose_de(X, Y) :-
+    assemblage(X, Y, _).
+est_compose_de(X, Y) :-
+    assemblage(X, Z, _),
+    est_compose_de(Z, Y).
 
+nb_pieces_tot(Composant, Piece, Qte) :-
+    assemblage(Composant, Piece, Qte),
+    not(assemblage(Piece, _, _)).
+nb_pieces_tot(Composant, SousPiece, Qtf) :-
+    assemblage(Composant, Piece, Qte),
+    nb_pieces_tot(Piece, SousPiece, Qte2),
+    Qtf is Qte * Qte2.
 
-% =============================================================================
-% Tests complémentaires
-% =============================================================================
-
-
-
+% Ne marche pas car le test attend aussi les composants intermédiaires
+% Contrairement à la fonction au-dessus
+nb_voiture(Nb) :-
+    findall(Qte, nb_pieces_tot(voiture, _, Qte), Qtes),
+    sum_list(Qtes, Nb).
+    
