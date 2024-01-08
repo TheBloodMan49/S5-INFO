@@ -220,6 +220,82 @@ assert_true(P) :- printf("echec : %w \n", [P]), fail.
 
 people([abby, bess, cody, dana]).
 
+% Q1
+
+make_all_pairs([], []).
+make_all_pairs([X|L], [likes(X,X)|R]) :-
+    make_all_pairs(L, R1),
+    make_all_pairs_aux(X, L, R2),
+    append(R1, R2, R).
+
+make_all_pairs_aux(_, [], []).
+make_all_pairs_aux(X, [Y|L], [likes(X, Y), likes(Y,X)|R]) :-
+    make_all_pairs_aux(X, L, R).
+
+% Q2
+
+sub_list([], []).
+sub_list([X|L], [X|R]) :-
+    sub_list(L, R).
+sub_list([_|L], R) :-
+    sub_list(L, R).
+
+% Q3
+
+proposition1(World) :-
+    member(likes(dana, cody), World).
+
+% Q4
+
+proposition2(World) :-
+    not(member(likes(bess, dana), World)).
+
+proposition3(World) :-
+    not(member(likes(cody, abby), World)).
+
+proposition4(World) :-
+    prop4_bis(World, World).
+prop4_bis([], _).
+prop4_bis([likes(X, Y)|L], World) :-
+    member(likes(Y, X), World),
+    prop4_bis(L, World).
+
+proposition5(World) :-
+    member(likes(X, bess), World),
+    member(likes(abby, X), World).
+proposition5(World) :-
+    not(member(likes(_, bess), World)).
+
+proposition6(World) :-
+    member(likes(bess, X), World),
+    member(likes(X, dana), World).
+proposition6(World) :-
+    not(member(likes(bess, _), World)).
+
+proposition7(World) :-
+    people(People),
+    prop7_bis(People, World).
+prop7_bis([], _).
+prop7_bis([X|Rest], World) :-
+    member(likes(X, _), World),
+    prop7_bis(Rest, World).
+
+possible_worlds(World) :-
+    people(People),
+    make_all_pairs(People, Max),
+    sub_list(Max, Canditates),
+    possible_worlds_aux(Candidates).
+possible_worlds_aux([X|_]) :-
+    proposition1(X),
+    proposition2(X),
+    proposition3(X),
+    proposition4(X),
+    proposition5(X),
+    proposition6(X),
+    proposition7(X).
+possible_worlds_aux([_|Rest]) :-
+    possible_worlds_aux(Rest).
+
 % Questions 1.6 and 1.7
 test_possible_worlds :-
     possible_worlds(World),
