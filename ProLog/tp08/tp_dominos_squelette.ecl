@@ -50,6 +50,10 @@ print1domino(A,B) :-
 % choose(+, -, -): 'a list * 'a * 'a list
 % choose(List, Element, Remaining) returns an Element from List and the Remaining list of elements.
 
+choose([Elt|Rest], Elt, Rest).
+choose([Elt|Rest], Chosen, [Elt|Rest2]) :-
+    choose(Rest, Chosen, Rest2).
+
 % ?- choose([1, 2, 3], Elt, Rest).
 % Elt = 1
 % Rest = [2, 3]
@@ -64,6 +68,37 @@ print1domino(A,B) :-
 % chains(+, +, -): stone list * chain list * chain list
 % chains(Stones, Partial, Chains) computes Chains, the solution from Stones using the accumulator Partial.
 
+chains([], Chains, Chains).
+chains(Stones, Partial, Chains) :-
+    choose(Stones, Stone, Stones2),
+    placeStone(Stone, Partial, Partial2),
+    chains(Stones2, Partial2, Chains).
+
+placeStone(_, [], _) :- fail.
+placeStone(stone(A, B), [chain([A|Rest1], Rest2)|Rest], [chain([B,A|Rest1], Rest2)|Rest]) :-
+    A \= B.
+placeStone(stone(A, B), [chain(Rest1, [A|Rest2])|Rest], [chain(Rest1, [B,A|Rest2])|Rest]) :-
+    A \= B.
+placeStone(stone(A, B), [chain([B|Rest1], Rest2)|Rest], [chain([A,B|Rest1], Rest2)|Rest]) :-
+    A \= B.
+placeStone(stone(A, B), [chain(Rest1, [B|Rest2])|Rest], [chain(Rest1, [A,B|Rest2])|Rest]) :-
+    A \= B.
+placeStone(stone(A, A), [chain([A|Rest1], Rest2)|Rest], [chain([A,A|Rest1], Rest2), chain([A],[double])|Rest]).
+
+placeStone(stone(A, A), [chain(Rest1, [A|Rest2])|Rest], [chain(Rest1, [A,A|Rest2]), chain([A],[double])|Rest]).
+
+placeStone(stone(A, B), [chain([C|Rest1], [D|Rest2])|Rest], [chain([C|Rest1], [D|Rest2])|X]) :-
+    placeStone(stone(A, B), Rest, X).
+
+    
 
 % domino(+, -): stone list * chain list
 % domino(Stones, Chains) computes Chains, the solution to the puzzle from Stones.
+
+domino([Stone|Stones], Chains) :-
+    placeFirstStone(Stone, FirstChain),
+    chains(Stones, FirstChain, Chains).
+
+placeFirstStone(stone(A,A), [chain([A],[A]), chain([A],[double])]).
+placeFirstStone(stone(A,B), [chain([A],[B])]) :-
+    A \= B.
