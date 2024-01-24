@@ -37,7 +37,7 @@ abline(v=120,col="red")
 variances <- tapply(X = vitesses$vecVitesses, INDEX = vitesses$vecNum, FUN=var)
 
 # Q11 :
-# S² a une loi connue : elle suit une loi du khi-2
+# S^2 a une loi connue : elle suit une loi du khi-2
 
 # Q12 :
 khi2 <- sapply(X = variances,

@@ -68,18 +68,18 @@ class RechercheBR:
         soup = BeautifulSoup(pw.tout, "html.parser")
         # Recherche d'une balise spécifique associée à l'élement recherché
         td = soup.find("h2", class_="bleu")
-        if td == None:
-            return (False)
+        if td is None:
+            return False
         # Récupération de l'édition principale
         self.analyseURL("http:" + td.a['href'])
-        if self.trouve == False:
+        if not self.trouve:
             # Recherche des autres éditions
             td = soup.find_all("td", class_="autresEditionsFiche")
             for ed in td:
-                if self.trouve == False:
+                if not self.trouve:
                     self.analyseURL("http:" + ed.a['href'])
-                    if self.trouve == True: return (True)
-        return (False)
+                    if self.trouve: return True
+        return False
 
     # Analyse d'une URL pour extraire les attributs associés à un film        
     def analyseURL(self, url):
@@ -87,7 +87,7 @@ class RechercheBR:
         soups = BeautifulSoup(pws.tout, "html.parser")
         # Recherche pour savoir si la page contient le code-barres désiré
         ean = soups.find(string=re.compile(self.br))
-        if (ean != None):
+        if ean is not None:
             id = soups.find("div", id="fiche")
             print(id.div.h1.string)
             result = tr(id.div.h1.string)

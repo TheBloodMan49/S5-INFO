@@ -1,4 +1,4 @@
-# Q1 : Loi binomiale, espérence 0.75*n, écart type 0.75*0.25*n
+# Q1 : Loi binomiale, espérance 0.75*n, écart type 0.75*0.25*n
 
 # Q2 : 
 nbPersonnes <- qbinom(p = 0.95, prob = 0.75, size = 150)
