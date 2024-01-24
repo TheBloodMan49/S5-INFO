@@ -1,3 +1,5 @@
 *.html
 .idea/
 .ipynb_checkpoints
+
+flickrRennes.csv
