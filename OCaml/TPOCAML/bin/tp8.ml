@@ -385,14 +385,18 @@ let test_find_truth () =
 
 let rec nnf (f : formula) : formula  =
   match f with
+  | Or(p,q) -> Or(nnf p, nnf q)
+  | And(p,q) -> And(nnf p, nnf q)
   | Imp (p, q) -> Or (Not (nnf p), nnf q)
   | Iff (p, q) -> Or (And (nnf p, nnf q), And (Not (nnf p), Not (nnf q)))
+  | Not True -> False
+  | Not False -> True
   | Not (Not p) -> nnf p
   | Not (And (p, q)) -> Or (nnf (Not p), nnf (Not q))
   | Not (Or (p, q)) -> And (nnf (Not p), nnf (Not q))
   | Not (Imp (p, q)) -> And (nnf p, nnf (Not q))
   | Not (Iff (p, q)) -> Or (And (nnf p, nnf (Not q)), And (Not (nnf p), nnf q))
-  | p -> p
+  | _ -> f
 
 let test_nnf () =
   let rec well_formed = function
