@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import fr.insa_rennes.sdd.javafx.view.ResizableCanvas?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/"
+	fx:controller="fr.insa_rennes.sdd.javafx.controller.Controller">
+	<top>
+		<MenuBar fx:id="menuBar" focusTraversable="true">
+			<menus>
+				<Menu text="Action">
+					<items>
+						<MenuItem text="Load Image"
+							onAction="#loadImage" />
+						<CheckMenuItem fx:id="horizontalSeamMenu" text="Show Horizontal Seam"
+							onAction="#showHorizontalSeam" />
+						<CheckMenuItem fx:id="verticalSeamMenu" text="Show Vertical Seam"
+							onAction="#showVerticalSeam" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+	</top>
+	<center>
+		<StackPane fx:id="pane">
+			<ResizableCanvas fx:id="canvas" />
+		</StackPane>
+	</center>
+</BorderPane>
+
